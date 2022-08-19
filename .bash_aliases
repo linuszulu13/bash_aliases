@@ -2,9 +2,25 @@
 
 # Git aliases
 alias gs="git status"
+alias gstatus=gs
+alias gitstatus=gs
 alias ga="git add ."
+alias gadd=ga
+alias gitadd=ga
 alias gc="git commit -m"
+alias gcommit=gc
+alias gcomit=gc
+alias gitcommit=gc
+alias gitcomit=gc
 alias gp="git push"
+alias gpush=gp
+alias gitpush=gp
+alias gf="git fetch"
+alias gfetch=gf
+alias gitfetch=gf
+alias gpl="git pull"
+alias gpull=gpl
+alias gitpull=gpl
 
 # Push .bash_aliases to git repo
 function pushalias() {
