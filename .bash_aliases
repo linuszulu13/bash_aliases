@@ -55,6 +55,12 @@ alias display-off="echo 'Switching off LubuntuLaptop display...' && xset -displa
 # Advanced process status
 alias ps="ps -aux"
 
+# Make directory and cd into it
+function mkcd() {
+	mkd "$1"
+	cd -- "$1"
+}
+
 # Display free disk space
 alias df="df -h"
 
