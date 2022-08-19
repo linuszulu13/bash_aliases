@@ -45,6 +45,10 @@ alias df="df -h"
 # Find files in current directory
 alias fhere="find . -name "
 
+# Python autocorrect
+alias py="python3"
+alias python=py
+
 # 'cd ..' Shortcuts
 alias ..="cd .."
 alias cd..=..
