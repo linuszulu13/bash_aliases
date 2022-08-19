@@ -49,6 +49,15 @@ alias fhere="find . -name "
 alias py="python3"
 alias python=py
 
+# Start ssh-agent
+alias sshag="eval \"\$(ssh-agent -s)\""
+
+# List ssh keys in agent
+alias sshl="ssh-add -l"
+
+# Remove all ssh keys from agent
+alias sshd="ssh-add -D"
+
 # 'cd ..' Shortcuts
 alias ..="cd .."
 alias cd..=..
