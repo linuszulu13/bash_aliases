@@ -16,7 +16,7 @@ alias reloadalias=loadalias
 alias reloadaliases=loadalias
 
 # Start password protected VNC server
-alias startvnc="x11vnc -rfbauth /home/kenalvares/.vnc/passwd"
+alias startvnc="x11vnc -rfbauth ~/.vnc/passwd"
 
 # Turn on LubuntuLaptop display
 alias display-on="echo 'Switching on LubuntuLaptop display...' && xset -display :0.0 dpms force on"
