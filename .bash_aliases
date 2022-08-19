@@ -39,6 +39,12 @@ alias display-off="echo 'Switching off LubuntuLaptop display...' && xset -displa
 # Advanced process status
 alias ps="ps -aux"
 
+# Display free disk space
+alias df="df -h"
+
+# Find files in current directory
+alias fhere="find . -name "
+
 # 'cd ..' Shortcuts
 alias ..="cd .."
 alias cd..=..
