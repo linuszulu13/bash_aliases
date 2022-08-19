@@ -40,6 +40,10 @@ alias display-off="echo 'Switching off LubuntuLaptop display...' && xset -displa
 alias ..="cd .."
 alias cd..=..
 
+# 'cd ~' Shortcuts
+alias ~="cd ~"
+alias cd~=~
+
 # Clear Screen from CMD
 alias cls=clear
 
