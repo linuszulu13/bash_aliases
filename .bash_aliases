@@ -103,6 +103,9 @@ alias .....='cd ../../../../'
 alias ~="cd ~"
 alias cd~=~
 
+# cd www
+alias www='cd /var/www/html'
+
 # Clear Screen from CMD
 alias cls=clear
 
