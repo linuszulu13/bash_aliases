@@ -70,5 +70,5 @@ alias ip_local="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -E
 alias ip_private=ip_local
 
 # Copy with progress bar
-alias cpv="rsync -ah --ifno=progress2"
+alias cpv="rsync -ah --info=progress2"
 
