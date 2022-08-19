@@ -95,6 +95,9 @@ alias sshd="ssh-add -D"
 # 'cd ..' Shortcuts
 alias ..="cd .."
 alias cd..=..
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
 
 # 'cd ~' Shortcuts
 alias ~="cd ~"
