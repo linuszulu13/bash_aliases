@@ -1,16 +1,26 @@
+#!/bin/bash
+
 # Git aliases
 alias gs="git status"
 alias ga="git add ."
 alias gc="git commit -m"
 alias gp="git push"
-alias pushalias="cp ~/.bash_aliases ~/projects/bash_aliases/.bash_aliases && cd ~/projects/bash_aliases && ga && gc 'Updated .bash_aliases' && gp"
+
+# Push .bash_aliases to git repo
+function pushalias() {
+	cp ~/.bash_aliases ~/projects/bash_aliases/.bash_aliases
+	cd ~/projects/bash_aliases
+	ga
+	gc '$1'
+	gp
+}
 
 # Edit aliases
 alias editalias="sudo vim ~/.bash_aliases"
 alias editaliases=editalias
 
 # Load Aliases
-alias loadalias="echo 'Custom Aliases Loaded.' && source ~/.bash_aliases"
+alias loadalias="source ~/.bash_aliases"
 alias loadaliases=loadalias
 alias reloadalias=loadalias
 alias reloadaliases=loadalias
