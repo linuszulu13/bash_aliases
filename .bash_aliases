@@ -36,6 +36,9 @@ alias display-on="echo 'Switching on LubuntuLaptop display...' && xset -display 
 # Turn off LubuntuLaptop display
 alias display-off="echo 'Switching off LubuntuLaptop display...' && xset -display :0.0 dpms force off"
 
+# Advanced process status
+alias ps="ps -aux"
+
 # 'cd ..' Shortcuts
 alias ..="cd .."
 alias cd..=..
