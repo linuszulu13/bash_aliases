@@ -14,6 +14,7 @@ function pushalias() {
 	gc "$1"
 	gp
 	popd
+	loadalias
 }
 
 # Edit aliases
