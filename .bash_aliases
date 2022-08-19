@@ -61,6 +61,18 @@ function mkcd() {
 	cd -- "$1"
 }
 
+# Move a file to a directory and cd into it
+mvcd() {
+	mv -- "$1" "$2"
+	custom_cd "$2"
+}
+
+# Copy a file to a directory and cd into it
+cpcd() {
+	cp -- "$1" "$2"
+	custom_cd "$2"
+}
+
 # Display free disk space
 alias df="df -h"
 
