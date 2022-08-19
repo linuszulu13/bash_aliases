@@ -11,7 +11,7 @@ function pushalias() {
 	cp ~/.bash_aliases ~/projects/bash_aliases/.bash_aliases
 	cd ~/projects/bash_aliases
 	ga
-	gc '$1'
+	gc "$1"
 	gp
 }
 
