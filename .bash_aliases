@@ -24,7 +24,7 @@ alias gitpull=gpl
 
 # Push .bash_aliases to git repo
 function pushalias() {
-	cp ~/.bash_aliases ~/projects/bash_aliases/.bash_aliases
+	\cp ~/.bash_aliases ~/projects/bash_aliases/.bash_aliases
 	pushd ~/projects/bash_aliases
 	ga
 	gc "$1"
