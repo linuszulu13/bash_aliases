@@ -138,3 +138,5 @@ alias ip_private=ip_local
 # Copy with progress bar
 alias cpv="rsync -ah --info=progress2"
 
+# Ping Test
+alias pingtest="ping -c 2 google.com"
