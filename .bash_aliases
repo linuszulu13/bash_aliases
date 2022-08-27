@@ -56,8 +56,8 @@ alias display-off="echo 'Switching off LubuntuLaptop display...' && xset -displa
 alias ps="ps -aux"
 
 # Make directory and cd into it
-function mkcd() {
-	mkd "$1"
+mkcd() {
+	mkdir "$1"
 	cd -- "$1"
 }
 
